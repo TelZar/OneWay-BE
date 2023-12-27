@@ -1,0 +1,51 @@
+{
+  "name": "byabe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "ajv": "^8.12.0",
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dompurify": "^3.0.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.15.0",
+    "frameguard": "^4.0.0",
+    "http-errors": "^2.0.0",
+    "httperrors": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "mustache": "^4.2.0",
+    "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1",
+    "oracledb": "^5.5.0",
+    "puppeteer": "^21.2.1",
+    "qrcode": "^1.5.3",
+    "ssh2-sftp-client": "^9.1.0",
+    "statuses": "^2.0.1",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1",
+    "xlsx": "^0.18.5",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1"
+  }
+}
